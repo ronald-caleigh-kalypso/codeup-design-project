@@ -1,0 +1,92 @@
+h1 {
+    font-size: 64px;
+    font-family: anton regular;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 28px;
+    font-family: abel regular;
+}
+
+#red-circle {
+    color: #E6563B;
+}
+
+#orange-circle {
+    color: #EB9D3A;
+}
+
+#green-circle {
+    color: #7CB06C;
+}
+
+#blue-circle {
+    color: #00ABA9;
+}
+
+#white-circle {
+    color: #F0F0F0;
+}
+
+#light-grey-circle {
+    color: #E6E6E6;
+}
+
+#logo {
+    border-radius: 50%;
+    height: 105px;
+    width: 105px;
+}
+
+#red-icon {
+    color: #E6563B;
+}
+
+.icons {
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    font-family: abel regular;
+}
+
+#orange-icon {
+    color: #EB9D3A;
+}
+
+#green-icon {
+    color: #7CB06C;
+
+}
+
+#blue-icon {
+    color: #00ABA9;
+}
+
+#blue-icon {
+    color: #00ABA9;
+
+}
+
+
+
+
+
+
+
