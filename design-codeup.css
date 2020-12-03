@@ -1,3 +1,8 @@
+body {
+    background-color: #F0F0F0;
+}
+
+
 h1 {
     font-size: 64px;
     font-family: 'Abel', sans-serif;;
@@ -16,6 +21,7 @@ h3 {
 h4 {
     font-size: 32px;
     font-family: 'Anton', sans-serif;
+    margin-bottom: 1em;
 }
 
 h5 {
@@ -30,6 +36,7 @@ p {
 
 #selected {
     font-family: 'Abel', sans-serif;
+    text-align: center;
 }
 
 #red-circle {
@@ -123,6 +130,43 @@ p {
 @media screen and (min-width: 1200px) {
     hr {width: 100%}
 }
+
+header {
+    margin: 1em;
+    justify-content: space-between;
+}
+
+.big-circles {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-right: 1em;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.big-circles>h5 {
+    font-size: 20px;
+}
+
+.red {
+    background-color: #E6563B;
+}
+.orange {
+    background-color: #EB9D3A;
+}
+.green {
+    background-color: #7CB06C;
+}
+.blue {
+    background-color:#00ABA9;
+}
+
+
 
 
 
