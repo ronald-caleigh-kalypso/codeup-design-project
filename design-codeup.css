@@ -166,6 +166,13 @@ header {
     background-color:#00ABA9;
 }
 
+.logo {
+    width: 105px;
+    height: 105px;
+    display: flex;
+
+}
+
 
 
 
