@@ -1,27 +1,35 @@
 h1 {
     font-size: 64px;
-    font-family: anton regular;
+    font-family: 'Abel', sans-serif;;
 }
 
 h2 {
     font-size: 48px;
+    font-family: 'Anton', sans-serif;
 }
 
 h3 {
     font-size: 40px;
+    font-family: 'Anton', sans-serif;
 }
 
 h4 {
     font-size: 32px;
+    font-family: 'Anton', sans-serif;
 }
 
 h5 {
     font-size: 28px;
+    font-family: 'Anton', sans-serif;
 }
 
 p {
     font-size: 28px;
-    font-family: abel regular;
+    font-family: 'Anton', sans-serif;
+}
+
+#selected {
+    font-family: 'Abel', sans-serif;
 }
 
 #red-circle {
@@ -63,7 +71,7 @@ p {
     height: 18px;
     width: 18px;
     text-align: center;
-    font-family: abel regular;
+    font-family: 'Anton', sans-serif;;
 }
 
 #orange-icon {
@@ -82,6 +90,38 @@ p {
 #blue-icon {
     color: #00ABA9;
 
+}
+
+.small-circles {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    font-size: 10px;
+    background-color: #00ABA9;
+    font-family: 'Anton', sans-serif;;
+    font-weight: bold;
+    padding-top: 1px;
+    margin-right: .5em;
+}
+
+.card-body>p {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 576px) {
+    hr {visibility: hidden}
+}
+
+@media screen and (min-width: 768px) {
+    hr {width: 50%}
+}
+
+@media screen and (min-width: 992px) {
+     hr {width: 100%}
+}
+
+@media screen and (min-width: 1200px) {
+    hr {width: 100%}
 }
 
 
