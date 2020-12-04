@@ -117,10 +117,19 @@ p {
 
 @media screen and (max-width: 576px) {
     hr {visibility: hidden}
+    .invisible-card {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    hr {width: 50%}
+
 }
 
 @media screen and (min-width: 768px) {
     hr {width: 50%}
+
 }
 
 @media screen and (min-width: 992px) {
@@ -172,6 +181,27 @@ header {
     display: flex;
 
 }
+
+.card {
+    margin-bottom: 50px;
+}
+
+
+.nav-link {
+    color: black;
+}
+
+ul {
+    font-family: 'Abel', sans-serif;
+}
+
+#xs-logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 
