@@ -24,9 +24,14 @@ h4 {
     margin-bottom: 1em;
 }
 
-h5 {
+h5> card {
     font-size: 28px;
     font-family: 'Anton', sans-serif;
+}
+
+.abel-text {
+    font-family: 'Abel', sans-serif;
+    padding-top: 10px;
 }
 
 p {
@@ -114,30 +119,41 @@ p {
 .card-body>p {
     font-size: 14px;
 }
-
+/*xs*/
 @media screen and (max-width: 576px) {
     hr {visibility: hidden}
     .invisible-card {
         visibility: hidden;
     }
 }
-
+/*sm*/
 @media screen and (max-width: 767px) {
     hr {width: 50%}
+    #the-last {
+        visibility: hidden;
+    }
 
 }
-
+/*md*/
 @media screen and (min-width: 768px) {
     hr {width: 50%}
-
 }
-
+/*lg*/
 @media screen and (min-width: 992px) {
      hr {width: 100%}
-}
+    #selected {
+        font-family: 'Abel', sans-serif;
+        text-align: left;
+    }
 
+}
+/*xl-lg*/
 @media screen and (min-width: 1200px) {
-    hr {width: 100%}
+    hr {width: 50%}
+    #selected {
+        font-family: 'Abel', sans-serif;
+        text-align: left;
+    }
 }
 
 header {
@@ -199,6 +215,23 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+#logo-row {
+    background: linear-gradient(to bottom, rgba(240, 240, 240, 1) 0%, rgba(240, 240, 240, 1) 25%, rgba(255, 255, 255, 1) 26%, rgba(255, 255, 255, 1) 74%, rgba(240, 240, 240, 1) 75%, rgba(240, 240, 240, 1) 100%);
+}
+
+.tweet>p {
+    font-family: 'Abel', sans-serif;
+}
+
+#final {
+    font-family: 'Abel', sans-serif;
+}
+
+.media-body {
+    font-family: 'Anton', sans-serif;
+}
+
 
 
 
